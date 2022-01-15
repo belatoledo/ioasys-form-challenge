@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Survey Form Project">
+ <title>Survey Form Project</title>
+ <link rel="icon" id="Camp" href="https://timcoo-geral.s3.amazonaws.com/Logos/browser_logo_ioasys.png" />
+ <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+ <div class="overlay"></div>
+  <header class="main-header">
+   <img class="logo" src="./assets/logo.png" alt="ioasys logo">
+   <h1 class="title">ioasys Camp Survey Form</h1>
+   <p class="description">Thank you for your help!</p>
+  </header>
+
+  <form class="survey-form" action="">
+   <div class="form-group">
+    <label for="name">name</label>
+    <input id="name" placeholder="enter your name" type="text" required>
+
+    <label for="email">e-mail</label>
+    <input id="email" placeholder="enter your best email " type="email" required>
+   
+    <label for="age">age (optional)</label>
+    <input id="age" type="number">
+   </div>
+
+   <label for="question-one"><strong>Which option best describes your current role?</strong></label>
+   <select name="question-one" id="question-one" required>
+    <option value="custumer">select current role</option>
+    <option value="custumer">custumer</option>
+    <option value="employeer">employeer</option>
+    <option value="stackholder">stackholder</option>
+    <option value="student">student</option>
+    <option value="other">other</option>
+   </select>
+   
+   <div class="form-group">
+    <p>Would you recommend ioasys to a friend?</p>
+     <div class="group-style">
+      <input type="radio" name="recommend" id="fyes" checked>
+      <label for="fyes">Definitely</label>
+    </div>
+    <div class="group-style">
+     <input type="radio" name="recommend" id="fmaybe" >
+     <label for="fyes">Maybe</label>
+    </div>
+    <div class="group-style">
+     <input type="radio" name="recommend" id="fno">
+     <label for="fyes">Not sure</label>
+    </div>
+
+    <p>What project do you most like in our portfolio?</p>
+    <div class="group-style">
+     <input type="checkbox" name="project" id="bank">
+     <label for="bank">Banco Inter</label>
+    </div>
+    <div class="group-style">
+     <input type="checkbox" name="project" id="dye-shop">
+     <label for="bank">Suvinil</label>
+    </div>
+    <div class="group-style">
+     <input type="checkbox" name="project" id="car-shop">
+     <label for="bank">Localiza</label>
+    </div>
+    <div class="group-style">
+     <input type="checkbox" name="project" id="soccer-team">
+     <label for="bank">Clube Atlético Mineiro</label>
+    </div>
+    <div class="group-style">
+     <input type="checkbox" name="project" id="lab">
+     <label for="bank">Hermes Pardini</label>
+    </div>
+  </div>
+
+  <p class="txt-msg">Any comments or suggestions?</p>
+  <textarea name="txt-msg" id="txt-msg" placeholder="enter your mensage here :)" cols="30" rows="10"></textarea>
+
+  <button class="submit-btn" type="submit">Submit</button>
+</form>
+
+<footer>
+  <p>Developed by <a href="https://github.com/belatoledo/ioasys-miniprojetos" target="_blank">Bela Toledo</a>  for <strong>ioasys Camp 2022</strong> ⭐</p>
+</footer>
+</body>
+</html>
