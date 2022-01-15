@@ -71,6 +71,10 @@ body {
   flex-direction: column;
 }
 
+.form-group > label {
+  font-weight: 700;
+}
+
 .form-group > input,
 select {
   margin: 8px 0 16px 0;
