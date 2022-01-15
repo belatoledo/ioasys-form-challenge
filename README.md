@@ -13,7 +13,7 @@
 </h4>
 
 <p align="center">
-<img src="" width="100px;" alt=""/></p>
+<img src="https://github.com/belatoledo/ioasys-form-challenge/blob/main/assets/img-github.png?raw=true" width="500px;" alt="Form image"/></p>
 ---
 
 ### 💻 About
